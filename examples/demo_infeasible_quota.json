@@ -1,0 +1,136 @@
+{
+  "case_id": "demo-infeasible-quota",
+  "departments": [
+    "D1",
+    "D2",
+    "D3"
+  ],
+  "risk_levels": [
+    "R1",
+    "R2",
+    "R3"
+  ],
+  "records": [
+    {
+      "id": "A1",
+      "department": "D1",
+      "risk": "R1",
+      "priority": 10,
+      "incidents": []
+    },
+    {
+      "id": "A2",
+      "department": "D1",
+      "risk": "R1",
+      "priority": 10,
+      "incidents": []
+    },
+    {
+      "id": "A3",
+      "department": "D1",
+      "risk": "R1",
+      "priority": 10,
+      "incidents": []
+    },
+    {
+      "id": "A4",
+      "department": "D2",
+      "risk": "R2",
+      "priority": 10,
+      "incidents": []
+    },
+    {
+      "id": "A5",
+      "department": "D2",
+      "risk": "R2",
+      "priority": 10,
+      "incidents": []
+    },
+    {
+      "id": "A6",
+      "department": "D2",
+      "risk": "R2",
+      "priority": 10,
+      "incidents": []
+    },
+    {
+      "id": "A7",
+      "department": "D3",
+      "risk": "R3",
+      "priority": 10,
+      "incidents": []
+    }
+  ],
+  "reviewers": [
+    {
+      "id": "V1",
+      "department": "D2",
+      "qualifications": [
+        "R1",
+        "R2",
+        "R3"
+      ],
+      "weekly_capacity": 7
+    },
+    {
+      "id": "V2",
+      "department": "D3",
+      "qualifications": [
+        "R1",
+        "R2",
+        "R3"
+      ],
+      "weekly_capacity": 7
+    },
+    {
+      "id": "V3",
+      "department": "D1",
+      "qualifications": [
+        "R1",
+        "R2",
+        "R3"
+      ],
+      "weekly_capacity": 7
+    }
+  ],
+  "quotas": [
+    {
+      "dimension": "department",
+      "label": "D1",
+      "lower": 2,
+      "upper": 3
+    },
+    {
+      "dimension": "risk",
+      "label": "R1",
+      "lower": 0,
+      "upper": 1
+    },
+    {
+      "dimension": "department",
+      "label": "D2",
+      "lower": 2,
+      "upper": 3
+    },
+    {
+      "dimension": "risk",
+      "label": "R2",
+      "lower": 0,
+      "upper": 1
+    },
+    {
+      "dimension": "department",
+      "label": "D3",
+      "lower": 0,
+      "upper": 1
+    },
+    {
+      "dimension": "risk",
+      "label": "R3",
+      "lower": 0,
+      "upper": 1
+    }
+  ],
+  "mutex_groups": [],
+  "incident_requirements": []
+}

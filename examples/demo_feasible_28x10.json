@@ -1,0 +1,511 @@
+{
+  "case_id": "demo-feasible-28x10",
+  "departments": [
+    "合规部",
+    "零售部",
+    "对公部",
+    "风控部",
+    "科技部"
+  ],
+  "risk_levels": [
+    "L1低",
+    "L2中",
+    "L3高",
+    "L4重大"
+  ],
+  "records": [
+    {
+      "id": "REC001",
+      "department": "合规部",
+      "risk": "L1低",
+      "priority": 5,
+      "incidents": [
+        "INC-A"
+      ]
+    },
+    {
+      "id": "REC002",
+      "department": "零售部",
+      "risk": "L4重大",
+      "priority": 12,
+      "incidents": [
+        "INC-A"
+      ]
+    },
+    {
+      "id": "REC003",
+      "department": "对公部",
+      "risk": "L3高",
+      "priority": 19,
+      "incidents": [
+        "INC-A"
+      ]
+    },
+    {
+      "id": "REC004",
+      "department": "风控部",
+      "risk": "L2中",
+      "priority": 26,
+      "incidents": [
+        "INC-A"
+      ]
+    },
+    {
+      "id": "REC005",
+      "department": "科技部",
+      "risk": "L1低",
+      "priority": 33,
+      "incidents": [
+        "INC-B"
+      ]
+    },
+    {
+      "id": "REC006",
+      "department": "合规部",
+      "risk": "L4重大",
+      "priority": 40,
+      "incidents": [
+        "INC-B"
+      ]
+    },
+    {
+      "id": "REC007",
+      "department": "零售部",
+      "risk": "L3高",
+      "priority": 47,
+      "incidents": [
+        "INC-B"
+      ]
+    },
+    {
+      "id": "REC008",
+      "department": "对公部",
+      "risk": "L2中",
+      "priority": 8,
+      "incidents": [
+        "INC-B"
+      ]
+    },
+    {
+      "id": "REC009",
+      "department": "风控部",
+      "risk": "L1低",
+      "priority": 15,
+      "incidents": [
+        "INC-C"
+      ]
+    },
+    {
+      "id": "REC010",
+      "department": "科技部",
+      "risk": "L4重大",
+      "priority": 22,
+      "incidents": [
+        "INC-C"
+      ]
+    },
+    {
+      "id": "REC011",
+      "department": "合规部",
+      "risk": "L3高",
+      "priority": 29,
+      "incidents": [
+        "INC-C"
+      ]
+    },
+    {
+      "id": "REC012",
+      "department": "零售部",
+      "risk": "L2中",
+      "priority": 36,
+      "incidents": [
+        "INC-C"
+      ]
+    },
+    {
+      "id": "REC013",
+      "department": "对公部",
+      "risk": "L1低",
+      "priority": 43,
+      "incidents": [
+        "INC-D"
+      ]
+    },
+    {
+      "id": "REC014",
+      "department": "风控部",
+      "risk": "L4重大",
+      "priority": 50,
+      "incidents": [
+        "INC-D"
+      ]
+    },
+    {
+      "id": "REC015",
+      "department": "科技部",
+      "risk": "L3高",
+      "priority": 11,
+      "incidents": [
+        "INC-D"
+      ]
+    },
+    {
+      "id": "REC016",
+      "department": "合规部",
+      "risk": "L2中",
+      "priority": 18,
+      "incidents": [
+        "INC-D"
+      ]
+    },
+    {
+      "id": "REC017",
+      "department": "零售部",
+      "risk": "L1低",
+      "priority": 25,
+      "incidents": [
+        "INC-E"
+      ]
+    },
+    {
+      "id": "REC018",
+      "department": "对公部",
+      "risk": "L4重大",
+      "priority": 32,
+      "incidents": [
+        "INC-E"
+      ]
+    },
+    {
+      "id": "REC019",
+      "department": "风控部",
+      "risk": "L3高",
+      "priority": 39,
+      "incidents": [
+        "INC-E"
+      ]
+    },
+    {
+      "id": "REC020",
+      "department": "科技部",
+      "risk": "L2中",
+      "priority": 46,
+      "incidents": [
+        "INC-E"
+      ]
+    },
+    {
+      "id": "REC021",
+      "department": "合规部",
+      "risk": "L1低",
+      "priority": 7,
+      "incidents": [
+        "INC-F"
+      ]
+    },
+    {
+      "id": "REC022",
+      "department": "零售部",
+      "risk": "L4重大",
+      "priority": 14,
+      "incidents": [
+        "INC-F"
+      ]
+    },
+    {
+      "id": "REC023",
+      "department": "对公部",
+      "risk": "L3高",
+      "priority": 21,
+      "incidents": [
+        "INC-F"
+      ]
+    },
+    {
+      "id": "REC024",
+      "department": "风控部",
+      "risk": "L2中",
+      "priority": 28,
+      "incidents": [
+        "INC-F"
+      ]
+    },
+    {
+      "id": "REC025",
+      "department": "科技部",
+      "risk": "L1低",
+      "priority": 35,
+      "incidents": [
+        "INC-G"
+      ]
+    },
+    {
+      "id": "REC026",
+      "department": "合规部",
+      "risk": "L4重大",
+      "priority": 42,
+      "incidents": [
+        "INC-G"
+      ]
+    },
+    {
+      "id": "REC027",
+      "department": "零售部",
+      "risk": "L3高",
+      "priority": 49,
+      "incidents": [
+        "INC-G"
+      ]
+    },
+    {
+      "id": "REC028",
+      "department": "对公部",
+      "risk": "L2中",
+      "priority": 10,
+      "incidents": [
+        "INC-G"
+      ]
+    }
+  ],
+  "reviewers": [
+    {
+      "id": "REV01",
+      "department": "合规部",
+      "qualifications": [
+        "L1低",
+        "L2中"
+      ],
+      "weekly_capacity": 2
+    },
+    {
+      "id": "REV02",
+      "department": "零售部",
+      "qualifications": [
+        "L2中",
+        "L3高"
+      ],
+      "weekly_capacity": 3
+    },
+    {
+      "id": "REV03",
+      "department": "对公部",
+      "qualifications": [
+        "L3高",
+        "L4重大"
+      ],
+      "weekly_capacity": 4
+    },
+    {
+      "id": "REV04",
+      "department": "风控部",
+      "qualifications": [
+        "L1低",
+        "L2中",
+        "L3高"
+      ],
+      "weekly_capacity": 5
+    },
+    {
+      "id": "REV05",
+      "department": "科技部",
+      "qualifications": [
+        "L2中",
+        "L3高",
+        "L4重大"
+      ],
+      "weekly_capacity": 2
+    },
+    {
+      "id": "REV06",
+      "department": "合规部",
+      "qualifications": [
+        "L1低",
+        "L2中"
+      ],
+      "weekly_capacity": 3
+    },
+    {
+      "id": "REV07",
+      "department": "零售部",
+      "qualifications": [
+        "L2中",
+        "L3高"
+      ],
+      "weekly_capacity": 4
+    },
+    {
+      "id": "REV08",
+      "department": "对公部",
+      "qualifications": [
+        "L3高",
+        "L4重大"
+      ],
+      "weekly_capacity": 5
+    },
+    {
+      "id": "REV09",
+      "department": "风控部",
+      "qualifications": [
+        "L1低",
+        "L2中",
+        "L3高"
+      ],
+      "weekly_capacity": 2
+    },
+    {
+      "id": "REV10",
+      "department": "科技部",
+      "qualifications": [
+        "L2中",
+        "L3高",
+        "L4重大"
+      ],
+      "weekly_capacity": 3
+    }
+  ],
+  "quotas": [
+    {
+      "dimension": "department",
+      "label": "合规部",
+      "lower": 2,
+      "upper": 6
+    },
+    {
+      "dimension": "department",
+      "label": "零售部",
+      "lower": 1,
+      "upper": 6
+    },
+    {
+      "dimension": "department",
+      "label": "对公部",
+      "lower": 1,
+      "upper": 6
+    },
+    {
+      "dimension": "department",
+      "label": "风控部",
+      "lower": 1,
+      "upper": 6
+    },
+    {
+      "dimension": "department",
+      "label": "科技部",
+      "lower": 0,
+      "upper": 6
+    },
+    {
+      "dimension": "risk",
+      "label": "L1低",
+      "lower": 1,
+      "upper": 8
+    },
+    {
+      "dimension": "risk",
+      "label": "L2中",
+      "lower": 1,
+      "upper": 8
+    },
+    {
+      "dimension": "risk",
+      "label": "L3高",
+      "lower": 1,
+      "upper": 8
+    },
+    {
+      "dimension": "risk",
+      "label": "L4重大",
+      "lower": 0,
+      "upper": 8
+    }
+  ],
+  "mutex_groups": [
+    {
+      "id": "MG-1",
+      "records": [
+        "REC001",
+        "REC002",
+        "REC006"
+      ]
+    },
+    {
+      "id": "MG-2",
+      "records": [
+        "REC003",
+        "REC005",
+        "REC010"
+      ]
+    },
+    {
+      "id": "MG-3",
+      "records": [
+        "REC005",
+        "REC015",
+        "REC020"
+      ]
+    },
+    {
+      "id": "MG-4",
+      "records": [
+        "REC010",
+        "REC011",
+        "REC025"
+      ]
+    },
+    {
+      "id": "MG-5",
+      "records": [
+        "REC007",
+        "REC012",
+        "REC017",
+        "REC022"
+      ]
+    },
+    {
+      "id": "MG-6",
+      "records": [
+        "REC008",
+        "REC013",
+        "REC018",
+        "REC023"
+      ]
+    }
+  ],
+  "incident_requirements": [
+    {
+      "incident": "INC-A",
+      "min_records": 2,
+      "distinct_departments": 2
+    },
+    {
+      "incident": "INC-B",
+      "min_records": 2,
+      "distinct_departments": 2
+    },
+    {
+      "incident": "INC-C",
+      "min_records": 2,
+      "distinct_departments": 2
+    },
+    {
+      "incident": "INC-D",
+      "min_records": 2,
+      "distinct_departments": 2
+    },
+    {
+      "incident": "INC-E",
+      "min_records": 2,
+      "distinct_departments": 2
+    },
+    {
+      "incident": "INC-F",
+      "min_records": 2,
+      "distinct_departments": 2
+    },
+    {
+      "incident": "INC-G",
+      "min_records": 2,
+      "distinct_departments": 2
+    }
+  ]
+}
